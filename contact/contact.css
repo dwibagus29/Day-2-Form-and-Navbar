@@ -1,0 +1,154 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(216, 220, 224);
+}
+
+/* nav */
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(244, 243, 243);
+}
+
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* nav left */
+.nav-left img {
+  width: 50px;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 40px;
+  font-size: 24px;
+}
+
+.nav-left {
+  flex: 50%;
+}
+
+.nav-left a {
+  color: black;
+}
+
+.nav-left a:hover {
+  font-weight: bold;
+}
+
+/* nav right */
+.nav-right {
+  flex: 50%;
+  text-align: end;
+}
+
+.nav-right a {
+  background-color: rgb(17, 23, 39);
+  padding: 8px 30px;
+  color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.nav-right:hover {
+  transform: translateY(-5%);
+  -webkit-transform: translateY(-5%);
+  -moz-transform: translateY(-5%);
+  -ms-transform: translateY(-5%);
+  -o-transform: translateY(-5%);
+}
+
+/* main container */
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+form {
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+form div {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  padding: 8px;
+}
+
+button {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: none;
+  background-color: rgb(17, 23, 39);
+  color: white;
+  padding: 5px 15px;
+}
+
+.main-container .title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.btn-submit {
+  text-align: end;
+}
