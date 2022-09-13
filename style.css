@@ -13,7 +13,7 @@ body {
 
 /* nav */
 nav {
-  height: 8vh;
+  height: 10vh;
   display: flex;
   align-items: center;
   background-color: rgb(244, 243, 243);
@@ -22,7 +22,7 @@ nav {
 .nav-container {
   width: 90%;
   margin: 0 auto;
-  padding: 5px 15px;
+  padding: 10px 15px;
   display: flex;
   align-items: center;
 }
@@ -52,7 +52,7 @@ nav ul li {
   color: black;
 }
 
-.nav-left a:hover {
+nav ul li a:hover {
   font-weight: bold;
 }
 
@@ -67,18 +67,14 @@ nav ul li {
   padding: 8px 30px;
   color: #fff;
   border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
 }
 
 .nav-right:hover {
-  transform: translateY(-15%);
-  -webkit-transform: translateY(-15%);
-  -moz-transform: translateY(-15%);
-  -ms-transform: translateY(-15%);
-  -o-transform: translateY(-15%);
+  transform: translateY(-5%);
+  -webkit-transform: translateY(-5%);
+  -moz-transform: translateY(-5%);
+  -ms-transform: translateY(-5%);
+  -o-transform: translateY(-5%);
 }
 
 /* main container */
@@ -87,8 +83,8 @@ nav ul li {
   align-items: center;
   justify-content: center;
   width: 90%;
-  margin: 90px auto;
-  background-color: rgba(248, 245, 245, 1);
+  margin: 40px auto;
+  background-color: rgba(220, 224, 228, 1);
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -130,7 +126,22 @@ nav ul li {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   padding: 10px 40px;
+  cursor: pointer;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
 }
+
+.btn-upload button:hover {
+  transform: translateY(-10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
 .btn-upload p {
   margin-right: 10px;
   font-size: 24px;
@@ -138,6 +149,7 @@ nav ul li {
 
 .btn-upload .fa-solid {
   font-size: 24px;
+  cursor: pointer;
 }
 
 .social-media {
@@ -163,6 +175,23 @@ nav ul li {
   line-height: 40px;
   color: white;
   font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+.linkedin:hover,
+.instagram:hover,
+.facebook:hover,
+.twitter:hover {
+  transform: translateY(-10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
 }
 
 .linkedin {
